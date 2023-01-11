@@ -1,0 +1,125 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body {
+        background-color: #6a11cb;
+        background-color: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0), rgba(37, 117, 252, 0));
+        background-color: linear-gradient(to right, rgba(106, 17, 203, 0), rgba(37, 117, 252, 0))
+    }
+
+    p {
+        color: white;
+        margin-left: 80px;
+        font-size: 18px;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: -2s;
+        float: right;
+        margin-top: -320px;
+        border-radius: 20%;
+        margin-right: 70px;
+
+    }
+
+    @keyframes example {
+        0% {
+            left: 10px;
+            top: 0px;
+        }
+
+        25% {
+            left: 400px;
+            top: 0px;
+        }
+
+        100% {
+            left: -50px;
+            top: 0px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: darkblue;
+
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+    </ul>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div>
+
+        <p>Hi, I'm Rishi,</p>
+
+
+        <p> I am looking for a beginner role to enhance and explore my technical knowledge, I hold a PG degree in
+            MCA.
+        </p>
+
+
+        <p> I am having good knowledge of Web Development which includes both Frontend and Backend Technologies.</p>
+
+
+        <p> Key Skills:-</p>
+
+
+        <p> Html, CSS, Javascript, Bootstrap, Ajax, Reactjs, Angularjs, Jquery,</p>
+
+
+        <p> PHP, Laravel/CodeIgniter(framework).</p>
+
+
+        <p> Database:- SQL, MongoDB</p>
+
+
+
+        <p> More:-</p>
+
+
+        <p> Python, Core Java, Android Development using Java, Asp.net.</p>
+
+        <img src="getProfileImage.jpeg" />
+
+    </div>
+</body>
+
+</html>
